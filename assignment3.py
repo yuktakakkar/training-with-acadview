@@ -1,36 +1,27 @@
 Ques-1:
 
->>> a = [1, 2, 3, 4]
+a = input("Enter a list: ")
+Enter a list: a = [1, 2, "abc", [3, 4, "pqr"], "abc"]
 >>> a
-[1, 2, 3, 4]
+'a = [1, 2, "abc", [3, 4, "pqr"], "abc"]'
 
 Ques-2:
 
->>> a = a + ['google','apple','facebook','microsoft','tesla']
+ a.append(['google', 'apple', 'facebook', 'microsoft', 'tesla'])
 >>> a
-[1, 2, 3, 4, 'google', 'apple', 'facebook', 'microsoft', 'tesla']
+[1, 2, 'abc', [3, 4, 'pqr'], 'abc', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
 
 Ques-3:
 
->>> a.count('google')
-1
 >>> a.count(1)
 1
 >>> a.count(2)
 1
->>> a.count(3)
+>>> a.count('abc')
+2
+>>> a.count([3, 4, 'pqr'])
 1
->>> a.count(4)
-1
->>> a.count('google')
-1
->>> a.count('apple')
-1
->>> a.count('facebook')
-1
->>> a.count('microsoft')
-1
->>> a.count('tesla')
+>>> a.count(['google', 'apple', 'facebook', 'microsoft', 'tesla'])
 1
 
 Ques-4:
