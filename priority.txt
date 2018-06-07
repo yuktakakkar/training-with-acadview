@@ -1,0 +1,50 @@
+sorted function is used for
+
+1. numbers
+
+>>> sorted([5,4,6,7,1])
+[1, 4, 5, 6, 7]
+
+2. alphabets
+
+>>> sorted(['b','t','a','l'])
+['a', 'b', 'l', 't']
+
+3.operators
+
+>>> sorted(['+','*','-'])
+['*', '+', '-']
+
+4. strings
+
+>>> sorted('i am yukta kakkar'.split())
+['am', 'i', 'kakkar', 'yukta']
+
+5. alphabets in string
+
+>>> sorted('i am yukta kakkar')
+[' ', ' ', ' ', 'a', 'a', 'a', 'a', 'i', 'k', 'k', 'k', 'k', 'm', 'r', 't', 'u', 'y']
+
+6. tuples
+
+>>> tuples = (6,4,7,8)
+>>> sorted(tuples)
+[4, 6, 7, 8]
+
+7.dictionary
+
+>>> d={'name':'yukta','age':10}
+>>> sorted(d)
+['age', 'name']
+
+
+Priority:
+
+>>> a=[1,2,3,'s',4,'a']
+>>> a.sort()
+>>> a
+[1, 2, 3, 4, 'a', 's']
+>>> a=[1,2,3,'s',4,'a','*','+']
+>>> a.sort()
+>>> a
+[1, 2, 3, 4, '*', '+', 'a', 's']
