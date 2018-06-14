@@ -63,6 +63,3 @@ Enter base: 2
 Enter power: 3
 >>> power(a,b)
 8
-
-Ques-5
-
