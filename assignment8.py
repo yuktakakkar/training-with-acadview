@@ -62,5 +62,5 @@ Ques-9
 		import os
 		print(os.getcwd())
 
-	2.
+	2.	os.environ
 		
