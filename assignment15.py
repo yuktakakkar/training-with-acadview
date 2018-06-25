@@ -11,3 +11,10 @@ import re
 text = "Betty bought a bit of butter, But the butter was so bitter, So she bought some better butter, To make the bitter butter better."
 pattern = (r'[bB]+\S*')
 print(re.findall(pattern,text))
+
+Ques-3
+
+import re
+sentence = "A, very very; irregular_sentence"
+pattern = (r'[,;_]')
+print(re.split(pattern,sentence))
