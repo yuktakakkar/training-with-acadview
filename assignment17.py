@@ -44,7 +44,8 @@ Ques-4
 import tkinter
 from tkinter import *
 def write():
-    print("Welcome to the world of coding!")
+    print(a.get())
+    print(b.get())
 tk = tkinter.Tk()
 lbl = Label(tk, text = "Welcome to the login page")
 lbl.pack()
