@@ -14,6 +14,11 @@ tk = tkinter.Tk()
 scrollbar = Scrollbar(tk)
 scrollbar.pack(side = RIGHT, fill = Y)
 mylist = Listbox(tk, yscrollcommand = scrollbar.set )
+for key in mylist:
+    mylist.insert(END, + str(key)
+mylist.pack(side = LEFT, fill = BOTH)
+scrollbar.config(command = mylist.yview)
+
 lbl = Label(tk, text = "Create a Dictionary:").pack()
 
 x = StringVar()
