@@ -71,6 +71,15 @@ print(np.sum(C))
 
 #Ques-4
 //Create a numpy array A of shape(10,1).Using the basic operations of the numpy array generate an array of shape(10,1) such that each element is the following function applied on each element of A. 
-
 f(x)=1 / (1 + exp(-x)) 
 
+import numpy as np
+
+A = np.random.rand(10,1)
+print (A)
+
+def func(x):
+    return (1 / (1 + np.exp(-x)))
+    
+function = np.apply_along_axis(func, 0, A)
+print(function)
