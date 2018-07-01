@@ -1,5 +1,5 @@
 #Ques-1
-//Create a dataframe with your name , age , mail id and phone number and add your friends’s information to the same.
+//Create a dataframe with your name , age , mail id and phone number and add your friendsâ€™s information to the same.
 
 import pandas as pd
 
